@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-07-17T10:10:54.062Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0" version="21.5.2" etag="pcPvlpWAjPttbQ5o8BsZ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-17T10:15:57.734Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="uzyEG0HcJqbi_ztnwd2O" version="21.5.2" type="github">
   <diagram name="Seite-1" id="7Gv9IBaCPcja_07nEdUA">
-    <mxGraphModel>
+    <mxGraphModel dx="2302" dy="1105" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="H-_e1SueUb_ECq1jZF0D-1" value="Vorne" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="180" width="348" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="H-_e1SueUb_ECq1jZF0D-2" value="&lt;div&gt;Öltank: 200*348*218&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="449" y="19" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H-_e1SueUb_ECq1jZF0D-4" value="Links" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-98" y="180" width="218" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="H-_e1SueUb_ECq1jZF0D-5" value="Hinten" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-446" y="180" width="348" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="H-_e1SueUb_ECq1jZF0D-6" value="Links" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="468" y="180" width="218" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="H-_e1SueUb_ECq1jZF0D-7" value="Unten" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="380" width="348" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="H-_e1SueUb_ECq1jZF0D-8" value="Oben" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-38" width="348" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="H-_e1SueUb_ECq1jZF0D-9" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="129" y="114" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H-_e1SueUb_ECq1jZF0D-10" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="306" y="114" width="60" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
