@@ -1,0 +1,29 @@
+name: Benni Test
+on:
+  - push
+  - pull_request
+  - release
+jobs:
+  build_docker_image:
+    runs-on: ubuntu-20.04
+    name: Build Docker Image
+    if: (github.event_name == 'release' && github.event.action == 'created') || github.event_name == 'push'
+    steps:
+      - uses: actions/checkout@v2
+      - if: github.event_name == 'release' && github.event.action == 'created'
+        run: |
+          # Remove prefix release
+          echo "GITHUB_REF ${GITHUB_REF}"
+          TAG_NAME=${GITHUB_REF##*/}
+          # Change slashes to hyphens
+          TAG_NAME=${TAG_NAME//\//-}
+          echo "TAG_NAME ${TAG_NAME}"
+          #docker buildx build --platform linux/arm/v7,linux/arm64/v8,linux/amd64 -t flyte/mqtt-io:${TAG_NAME} -t flyte/mqtt-io:latest --push --build-arg BUILDX_QEMU_ENV=true .
+      - if: github.event_name == 'push'
+        run: |
+          # Remove prefix push
+          TAG_NAME=${GITHUB_REF:11}
+          # Change slashes to hyphens
+          TAG_NAME=${TAG_NAME//\//-}
+          echo "TAG_NAME ${TAG_NAME}"
+          #docker buildx build --platform linux/arm/v7,linux/arm64/v8,linux/amd64 -t flyte/mqtt-io:${TAG_NAME} --push --build-arg BUILDX_QEMU_ENV=true .
